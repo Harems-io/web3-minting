@@ -60,7 +60,7 @@
       const numLeftToMint  = await leftToMint();
 
       if(numLeftToMint > 0) {
-        remaining.innerHTML = `<span>${numWithCommas(numLeftToMint - 8923)} girls</span> left to be minted`;
+        remaining.innerHTML = `<span>${numWithCommas(numLeftToMint)} girls</span> left to be minted`;
       }
 
       if(numLeftToMint === 0) {
